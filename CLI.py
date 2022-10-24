@@ -132,9 +132,9 @@ def injectTests(assignment, ss, auto):
 def downloadSubmissionMenu(auto,assignment):
     print("Choose submission to download")
     chosen_submission = listSubmissions(assignment)
-    user_id = chosen_submission['user_id']
-    auto.getStudentSubmission(user_id,get_user(course,user_id))
-
+    if chosen_submission != -1:
+        user_id = chosen_submission['user_id']
+        auto.getStudentSubmission(user_id,get_user(course,user_id))
     #Autograder.makeAutoGrader(course,assignment,assignment_conf,sharp=True)
 
 def listSubmissions(assignment):
