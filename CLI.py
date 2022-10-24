@@ -87,7 +87,7 @@ def manageAssignment(assignment):
     if (menu_entry_index == 3):
         return
 
-    auto = Autograder.makeAutoGrader(course,assignment,ass_confs[0],sharp=False)
+    auto = Autograder.makeAutoGrader(course,assignment,ass_confs[0],conf,sharp=False)
 
     if (menu_entry_index == 0): # Chosen to List
         listSubmissions(assignment)
