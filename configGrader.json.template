@@ -6,7 +6,7 @@
     "Assignments" : [
         {"name": "TEST_ASSIGNMENT_1",
         "studium_id" : 0,
-        "master_filename" : "Master/ASSIGNMENT_1_problem_TEST.db",
+        "master_filename" : "Master/Assignment_1_problem_TEST.dbc",
         "start_date" : "2022-09-03",
         "end_date" : "2022-09-10"
         }
